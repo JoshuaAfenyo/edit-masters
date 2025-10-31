@@ -1,0 +1,219 @@
+site_name: Edit Masters
+site_description: A hub for academic editing and writing resources.
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: "Open Sans"
+    code: "Fira Code"
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tracking
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Resources:
+      - Beginners:
+          - Day 1:
+              - Course Introduction and Pre-Test: resources/beginners/day1/course-introduction-and-pre-test.md
+              - Introduction to English Grammar (2:08): resources/beginners/day1/introduction-to-english-grammar.md
+              - Sentences (9:32): resources/beginners/day1/sentences.md
+              - Parts of Speech (21:46): resources/beginners/day1/parts-of-speech.md
+              - Substitutes for the Parts of Speech (8:40): resources/beginners/day1/substitutes-for-the-parts-of-speech.md
+              - Sentence Structure (6:02): resources/beginners/day1/sentence-structure.md
+              - Summary: resources/beginners/day1/summary.md
+              - Common Errors- Sentence Structure (0:26): resources/beginners/day1/common-errors-sentence-structure.md
+              - Run-On Sentences and Modifiers (67:44): resources/beginners/day1/run-on-sentences-and-modifiers.md
+              - Problems with Parallelism (10:27): resources/beginners/day1/problems-with-parallelism.md
+              - Accurately Using Ellipsis (8:07): resources/beginners/day1/accurately-using-ellipsis.md
+              - Exercise- Repairing Run-On Sentences: resources/beginners/day1/exercise-repairing-run-on-sentences.md
+              - Irregular Verbs List: resources/beginners/day1/irregular-verbs-list.md
+              - Exercise- Irregular Verbs - 1: resources/beginners/day1/exercise-irregular-verbs-1.md
+              - Exercise- Irregular Verbs - 2: resources/beginners/day1/exercise-irregular-verbs-2.md
+              - Common Errors- Sentence Structure - Assignments: resources/beginners/day1/common-errors-sentence-structure-assignments.md
+              - Assignment 1: resources/beginners/day1/assignment-1.md
+
+          - Day 2:
+              - Common Errors- Nouns (0:28): resources/beginners/day2/common-errors-nouns.md
+              - Number: resources/beginners/day2/number.md
+              - Exercise - Number: resources/beginners/day2/exercise-number.md
+              - Countable and Uncountable Nouns: resources/beginners/day2/countable-and-uncountable-nouns.md
+              - Exercise - Countable and Uncountable Nouns: resources/beginners/day2/exercise-countable-and-uncountable-nouns.md
+              - Common Errors- Pronouns: resources/beginners/day2/common-errors-pronouns.md
+              - Personal Pronouns and Cases: resources/beginners/day2/personal-pronouns-and-cases.md
+              - Relative Pronouns: resources/beginners/day2/relative-pronouns.md
+              - Exercise - Relative Pronouns: resources/beginners/day2/exercise-relative-pronouns.md
+              - Problems with Pronoun-Antecedent Agreement: resources/beginners/day2/problems-with-pronoun-antecedent-agreement.md
+              - Common Errors- Adjectives: resources/beginners/day2/common-errors-adjectives.md
+              - Articles: resources/beginners/day2/articles.md
+              - Exercise - Articles 1: resources/beginners/day2/exercise-articles-1.md
+              - Exercise - Articles 2: resources/beginners/day2/exercise-articles-2.md
+              - Quantifiers: resources/beginners/day2/quantifiers.md
+              - Comparative Adverbs: resources/beginners/day2/comparative-adverbs.md
+              - Adjective Gradability: resources/beginners/day2/adjective-gradability.md
+              - Exercise - Irregular Verbs 3: resources/beginners/day2/exercise-irregular-verbs-3.md
+              - Assignment 2: resources/beginners/day2/assignment-2.md
+
+          - Day 3:
+              - Common Errors- Verbs (0:27): resources/beginners/day3/common-errors-verbs.md
+              - Subject-Verb Agreement: resources/beginners/day3/subject-verb-agreement.md
+              - Tenses: resources/beginners/day3/tenses.md
+              - Exercise - Tense: resources/beginners/day3/exercise-tense.md
+              - Exercise - Articles 3: resources/beginners/day3/exercise-articles-3.md
+              - Preposition Rules: resources/beginners/day3/preposition-rules.md
+              - Prepositions of Time - at, in, on: resources/beginners/day3/prepositions-of-time.md
+              - Active and Passive (5:47): resources/beginners/day3/active-and-passive.md
+              - Exercise - Active and Passive Voice: resources/beginners/day3/exercise-active-and-passive-voice.md
+              - Exercise - Countable and Uncountable Nouns: resources/beginners/day3/exercise-countable-and-uncountable-nouns.md
+              - Exercise - Relative Pronouns: resources/beginners/day3/exercise-relative-pronouns.md
+              - Assignment 3: resources/beginners/day3/assignment-3.md
+
+          - Day 4:
+              - Common Errors- Punctuation (1:01): resources/beginners/day4/common-errors-punctuation.md
+              - Essential Punctuation (61:21): resources/beginners/day4/essential-punctuation.md
+              - Exercise - Essential Punctuation 1: resources/beginners/day4/exercise-essential-punctuation-1.md
+              - Exercise - Essential Punctuation 2: resources/beginners/day4/exercise-essential-punctuation-2.md
+              - Other Punctuation (37:52): resources/beginners/day4/other-punctuation.md
+              - Exercise - Other Punctuation: resources/beginners/day4/exercise-other-punctuation.md
+              - Exercise - Articles 4: resources/beginners/day4/exercise-articles-4.md
+              - Exercise - Articles 5: resources/beginners/day4/exercise-articles-5.md
+              - Common Errors- Adjectives - Optional Exercises: resources/beginners/day4/common-errors-adjectives-optional-exercises.md
+              - Assignment 4: resources/beginners/day4/assignment-4.md
+
+          - Day 5:
+              - Grammar and Vocabulary Test: resources/beginners/day5/grammar-and-vocabulary-test.md
+              - Assignment 5: resources/beginners/day5/assignment-5.md
+              - Exercise - Types of Sentences: resources/beginners/day5/exercise-types-of-sentences.md
+              - Exercise - Subject and Predicate: resources/beginners/day5/exercise-subject-and-predicate.md
+              - Exercise - Parts of Speech: resources/beginners/day5/exercise-parts-of-speech.md
+              - Exercise - Phrases: resources/beginners/day5/exercise-phrases.md
+              - Exercise - Clauses: resources/beginners/day5/exercise-clauses.md
+              - Sources and Credits to External Material: resources/beginners/day5/sources-and-credits.md
+              
+              
+      - Intermediate:
+          - Day 1:
+              - Let's Get Started: resources/intermediate/day1/lets-get-started.md
+              - Additional Information: resources/intermediate/day1/additional-information.md
+              - Our Services: resources/intermediate/day1/our-services.md
+              - Formatting: resources/intermediate/day1/formatting.md
+              - After-Sales Services: resources/intermediate/day1/after-sales-services.md
+              - Editing in Word and Internal CACTUS Requirements (9:08): resources/intermediate/day1/editing-in-word-and-internal-cactus-requirements.md
+              - Pop Quiz: resources/intermediate/day1/pop-quiz.md
+              - How to Edit (3:24): resources/intermediate/day1/how-to-edit.md
+              - Practice Edit (SES, 500 words, no LFTE, no formatting): resources/intermediate/day1/practice-edit-ses.md
+              - Additional Reading: resources/intermediate/day1/additional-reading.md
+
+          - Day 2:
+              - Standard Editing Service: resources/intermediate/day2/standard-editing-service.md
+              - Letter from the Editor: resources/intermediate/day2/letter-from-the-editor.md
+              - Premium Editing Services (PES and PES Plus) (12:57): resources/intermediate/day2/premium-editing-services.md
+              - Quick Tip- Guidelines and Database: resources/intermediate/day2/quick-tip-guidelines-and-database.md
+              - Writing Comments (7:02): resources/intermediate/day2/writing-comments.md
+              - Proofreading, Spellcheck, and Ctrl+F Checks (6:17): resources/intermediate/day2/proofreading-and-spellcheck.md
+              - Style Sheet, Conventions in Statistics, Expressing SI Unit Names and Symbols: resources/intermediate/day2/style-sheet-and-statistics-conventions.md
+              - Checklists and Flashcards- SES and PES: resources/intermediate/day2/checklists-and-flashcards-ses-and-pes.md
+              - Edit (SES, 1000 words, LFTE, no formatting, 4 h + Key): resources/intermediate/day2/edit-ses.md
+              - Further Reading- PES: resources/intermediate/day2/further-reading-pes.md
+
+          - Day 3:
+              - Avoiding Unnecessary Changes: resources/intermediate/day3/avoiding-unnecessary-changes.md
+              - Ensuring Technical Accuracy: resources/intermediate/day3/ensuring-technical-accuracy.md
+              - Ensuring Flow of Sentences and Paragraphs under PES: resources/intermediate/day3/ensuring-flow-of-sentences-and-paragraphs.md
+              - Googling Effectively: resources/intermediate/day3/googling-effectively.md
+              - Keyboard Shortcuts (11:26): resources/intermediate/day3/keyboard-shortcuts.md
+              - Equations- General Guidelines: resources/intermediate/day3/equations-general-guidelines.md
+              - Readability in Scientific Writing: resources/intermediate/day3/readability-in-scientific-writing.md
+              - Covering Letter Guidelines: resources/intermediate/day3/covering-letter-guidelines.md
+              - Language Enhancement Guide (LEG): resources/intermediate/day3/language-enhancement-guide.md
+              - Quality Index: resources/intermediate/day3/quality-index.md
+              - Practice Edit (PES, 1500 words, no formatting, 6 h): resources/intermediate/day3/practice-edit-pes.md
+
+          - Day 4:
+              - Formatting (14:02): resources/intermediate/day4/formatting.md
+              - Formatting Best Practices (8:52): resources/intermediate/day4/formatting-best-practices.md
+              - Formatting FAQs: resources/intermediate/day4/formatting-faqs.md
+              - Editing Software-Linked References and Citations: resources/intermediate/day4/editing-references-and-citations.md
+              - Word Count Reduction and Common Formatting Requirements: resources/intermediate/day4/word-count-reduction.md
+              - Scope of Formatting under SES, PES, and PES Plus: resources/intermediate/day4/scope-of-formatting.md
+              - Checklists and Flashcards- Formatting: resources/intermediate/day4/checklists-and-flashcards-formatting.md
+              - Formatting Exercise (approx. 4000 words): resources/intermediate/day4/formatting-exercise.md
+              - Template Formatting (8:39): resources/intermediate/day4/template-formatting.md
+              - Template Formatting Exercise (4000 words): resources/intermediate/day4/template-formatting-exercise.md
+              - Style Guides- APA, MLA, ACS, and AMA: resources/intermediate/day4/style-guides.md
+
+          - Day 5:
+              - Quiz: resources/intermediate/day5/quiz.md
+              - Edit (PES, 2000 words, formatting, word count reduction, covering letter): resources/intermediate/day5/edit-pes-formatting.md
+              - Assistive Editing: resources/intermediate/day5/assistive-editing.md
+              - Assistive Editing Exercise: resources/intermediate/day5/assistive-editing-exercise.md
+              - Post-Review Process: resources/intermediate/day5/post-review-process.md
+              - Video Demonstration- Post-Review Process: resources/intermediate/day5/video-post-review-process.md
+              - Instructions: resources/intermediate/day5/instructions.md
+              - Common Errors to Look Out For: resources/intermediate/day5/common-errors-to-look-out-for.md
+
+          - Day 6:
+              - Post-Review Assignment 1: resources/intermediate/day6/post-review-assignment-1.md
+              - Post-Review Assignment 2: resources/intermediate/day6/post-review-assignment-2.md
+              - How is Phase 1 Going?: resources/intermediate/day6/hows-phase1-going.md
+
+          - Day 7:
+              - Editing Translation Assignments: resources/intermediate/day7/editing-translation-assignments.md
+              - Time Management- Tips and Tricks: resources/intermediate/day7/time-management-tips.md
+              - Level 3 Translation Edit (2500 words with Style Guide-Based Formatting): resources/intermediate/day7/level3-translation-edit.md
+
+          - Day 8:
+              - Editing LaTeX Files: resources/intermediate/day8/editing-latex-files.md
+              - Edit- LaTeX (PES, 2500 words with Formatting): resources/intermediate/day8/edit-latex-pes.md
+
+          - Day 9:
+              - Multiple Round Edits (MREs) and Client Questions (CQs) (11:29): resources/intermediate/day9/mres-and-client-questions.md
+              - MRE/CQ Assignment: resources/intermediate/day9/mre-cq-assignment.md
+              - Orientation to Corporate Clients: resources/intermediate/day9/orientation-to-corporate-clients.md
+              - Editing SoPs: resources/intermediate/day9/editing-sops.md
+              - Editing Non-Academic Documents: resources/intermediate/day9/editing-non-academic-documents.md
+              - Editing “Accepted” Manuscripts: resources/intermediate/day9/editing-accepted-manuscripts.md
+
+          - Day 10:
+              - Level 2 Translation Edit (2000 words) + MRE/CQ: resources/intermediate/day10/level-2-translation-edit.md
+              - Editing Content in PowerPoint and Excel Files: resources/intermediate/day10/editing-content-in-powerpoint-and-excel.md
+              - Abstract Writing: resources/intermediate/day10/abstract-writing.md
+              - Troubleshooting: resources/intermediate/day10/troubleshooting.md
+              - Flagging Ethical Misconduct: resources/intermediate/day10/flagging-ethical-misconduct.md
+              - Subject-Specific Reading: resources/intermediate/day10/subject-specific-reading.md
+
+          - Day 11:
+              - Quiz- Process Test for Editors: resources/intermediate/day11/process-test-for-editors.md
+              - Edit- Word (2500 words with Response Letter Check and Formatting): resources/intermediate/day11/edit-word-with-response-letter.md
+              - Quiz: resources/intermediate/day11/quiz.md
+              - Before You Begin Phase 2: resources/intermediate/day11/before-you-begin-phase2.md
+              - My Report: resources/intermediate/day11/my-report.md
+              - Orientation to CRM for Editors: resources/intermediate/day11/orientation-to-crm-for-editors.md
+              - Editing PDF Files: resources/intermediate/day11/editing-pdf-files.md
+              - Process Checklist for Live Jobs: resources/intermediate/day11/process-checklist-for-live-jobs.md
+              - Guidelines for Quality Re-Edits: resources/intermediate/day11/guidelines-for-quality-reedits.md
+              - Subject-Specific Reading: resources/intermediate/day11/subject-specific-reading.md
+              - Scientific Editing: resources/intermediate/day11/scientific-editing.md
+              - Subject-Specific Reading 2: resources/intermediate/day11/subject-specific-reading2.md
+              - EditAssist: resources/intermediate/day11/editassist.md
+              - Assistive Editing Assignments: resources/intermediate/day11/assistive-editing-assignments.md

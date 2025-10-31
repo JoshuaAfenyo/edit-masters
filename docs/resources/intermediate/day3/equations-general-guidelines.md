@@ -1,0 +1,2 @@
+# Equations General Guidelines
+
