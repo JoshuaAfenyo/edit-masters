@@ -1,0 +1,39 @@
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore build artifacts
+/site/
+/build/
+
+# Ignore environment folders
+.env
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Ignore large media files
+*.avi
+*.mp4
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.mp3
+*.wav
+
+# Ignore archives and installers
+*.zip
+*.tar
+*.gz
+*.exe
+
+# Ignore logs and temporary files
+*.log
+*.tmp

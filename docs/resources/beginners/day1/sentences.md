@@ -1,8 +1,9 @@
 # Sentences
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px;">
-  <video controls preload="metadata" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-    <source src="../videos/sentences.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <iframe 
+    src="https://drive.google.com/file/d/1fz5lzPi4N6ddCQr9EFClaiony_C7aRPR/preview" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+    allowfullscreen>
+  </iframe>
 </div>
