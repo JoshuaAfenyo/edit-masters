@@ -27,8 +27,12 @@ theme:
     - content.code.copy
 
 markdown_extensions:
+  - admonition
   - attr_list
+  - def_list
+  - footnotes
   - md_in_html
+  - pymdownx.tilde
 
 nav:
   - Home: index.md
@@ -64,6 +68,7 @@ nav:
               - Relative Pronouns: resources/beginners/day2/relative-pronouns.md
               - Exercise - Relative Pronouns: resources/beginners/day2/exercise-relative-pronouns.md
               - Problems with Pronoun-Antecedent Agreement: resources/beginners/day2/problems-with-pronoun-antecedent-agreement.md
+              - Exercise - Countable and Uncountable Nouns: resources/beginners/day2/exercise-countable-and-uncountable-nouns_2.md
               - Common Errors- Adjectives: resources/beginners/day2/common-errors-adjectives.md
               - Articles: resources/beginners/day2/articles.md
               - Exercise - Articles 1: resources/beginners/day2/exercise-articles-1.md
